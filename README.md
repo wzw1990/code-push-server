@@ -22,11 +22,6 @@ CodePush Server is a CodePush progam server! microsoft CodePush cloud is slow in
 - oss *storage bundle file in [aliyun](https://www.aliyun.com/product/oss)*
 - tencentcloud *storage bundle file in [tencentcloud](https://cloud.tencent.com/product/cos)*
 
-## qq交流群 
-
-- QQ群: 628921445
-- QQ群: 535491067
-
 ## 正确使用code-push热更新
 
 - 苹果App允许使用热更新[Apple's developer agreement](https://developer.apple.com/programs/ios/information/iOS_Program_Information_4_3_15.pdf), 为了不影响用户体验，规定必须使用静默更新。 Google Play不能使用静默更新，必须弹框告知用户App有更新。中国的android市场必须采用静默更新（如果弹框提示，App会被“请上传最新版本的二进制应用包”原因驳回）。
