@@ -101,7 +101,7 @@ config.development = {
   // Config for redis (register module, tryLoginTimes module)
   redis: {
     default: {
-      host: "127.0.0.1",
+      host: process.env.REDIS_HOST,
       port: 6379,
       retry_strategy: function (options) {
         if (options.error.code === 'ECONNREFUSED') {
